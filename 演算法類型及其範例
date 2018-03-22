@@ -1,6 +1,6 @@
 演算法:
 
-常用演算法類型:overview
+常用演算法類型:overview[弄清楚!並默舉數範例!自己動手默寫]
 
 (1)貪婪演算法
 
@@ -12,15 +12,84 @@
 
 (5)branch and bound
 
-分而治之(Divide-and-Conquer)演算法及其範例
 
-貪婪(Greedy)演算法及其範例
+分而治之(Divide-and-Conquer)演算法及其範例
+各個擊破法(divide and conquer)	
+
+[1]將問題分成多個獨立的小問題，分別解決之，再把各個小問題之解合併成完整之解答‧
+ 
+[2] 何時不能使用Divide-and-Conquer??
+
+【範例1】：binary search(二元搜尋法)
+
+【範例2】：merge sort(合併排序法)
+
+【範例3】：Quick Sort(快速排序法)(分割交換排序法)
+
+【範例4】：Strassen的矩陣相乘演算法
+
+
+貪婪(Greedy)演算法及其範例======貪婪法(greedy method)
+
+[1]先訂定滿足解答之條件，即決策原則‧
+
+[2]每次取得一個輸入資料（可能的解），判斷是否符合決策原則，若是則保留之，若否則剔除之‧
+
+[3]重覆上述步驟，直到所有資料皆已輸入，或已建立完整解答為止‧
+
+【範例1】：最小生成樹:Kruskal演算法,Prim演算法
+
+【範例2】：解單一起點最短路徑問題之Dijkstra演算法 single source all destination的最短路徑
+
+【範例3】：霍夫曼樹之建立‧
+
 
 Dynamic Programming演算法及其範例
+動態規劃(dynamic programming)	
+
+[1]求出所有可能之解答（solution space），取最佳者‧
+
+[2]greedy Method只能找到合理解（近似最佳），dynamic programming則能找到最佳解‧
+
+【範例1】：最佳二元找尋樹之建立
+
+【範例2】： all pairs的最短路徑:Floyd最短路徑演算法
+
 
 回溯(Backtracking)演算法及其範例
 
+[1]由解答的起始點（root）往下尋找尚未走過的路徑，
+判斷是否符合解答的條件，若符合則繼續往下尋找，若非則往後退回一步，再往下尋找未走過的新路徑‧
+
+[2]求解過程需使用堆疊Stack，以記錄走過的路徑‧
+
+【範例1】：圖追蹤之DFS
+
+【範例2】：樹之中序、前序、後序追蹤
+
+【範例3】：走迷宮遊戲(Maze Problem)
+
+【範例4】：n-皇后問題
+
+【範例5】：Sun-of-Subsets問題
+
+【範例6】：圖形著色問題
+
+【範例7】：漢米爾頓迴路問題
+
+
+
 Branch-and-Bound(分支與限制)演算法及其範例
+分支設限法(branch and bound)	
+
+[1]與Backtracking求解方式相同，惟求解過程使用佇列以記錄走過的路徑‧
+
+[2]於判斷某一路徑是否要繼續往下尋找，附加了upper bound與lower bound的條件，以使程式能提早完成（prune：此一路徑可不必繼續往下尋找）‧
+
+【範例1】：圖追蹤之BFS
+
+【範例2】：樹之level order追蹤
+
 
 
 背包問題knapsack problem及其解法
