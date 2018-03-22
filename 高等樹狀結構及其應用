@@ -1,0 +1,73 @@
+高等樹狀結構及其應用
+
+堆積演算法(heap)
+
+A.支援 Priority Queue (優先權佇列)的資料結構
+
+堆積(Heap)及其應用:Heap Sort
+
+B.支援Double-ended priority queue(雙端優先佇列)的資料結構
+
+min-max heap
+
+雙向堆積(deap)
+
+C.支援Combination(結合)運算的heap結構
+
+最左樹(leftist tree)
+
+B-heap(Binomial Heap) mergeable heaps
+
+F-heap(費氏堆積，Fibonacci heap)
+
+D. heap結構的多子節點擴充結構
+
+d-Heaps
+
+
+高等樹狀結構及其應用:動態搜尋演算法
+
+
+[90]二元搜尋樹(binary search tree):
+
+二元樹的操作(樹走訪)
+
+(1)建立二元搜尋樹
+
+(2)尋找節點(search)
+
+(3)insert
+
+(4)delete
+
+(5)計算高度 
+
+(6)joining(合併) and splitting(切開)
+
+[91]:延展二元樹extended binary tree[引入外部節點觀念]
+
+[92]:霍夫曼樹
+
+[93]:最佳二元搜尋樹[引入搜尋成本(Cost)觀念導出平衡樹(balance)]
+
+[94]:平衡樹(balance)之AVL tree
+
+B.高等M-nary樹狀結構
+
+[95]: 2-3 tree
+
+[96]: 2-3-4 tree及red-black tree(紅黑樹)
+
+[97]: m-way search tree
+
+[98]: B-tree/B’ tree/B*-tree/B-Plus Tree/…….
+
+C.成本(Cost)考量的二元樹
+
+[99]:Splay Tree(外張樹)
+
+[100]:Digital Search Tree(數位搜尋樹)
+
+[101]:Binary TriesPatricia及Binary Triesの多元擴充Tries
+
+
