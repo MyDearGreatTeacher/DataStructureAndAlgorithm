@@ -1,0 +1,49 @@
+背包(knapsack)問題及其解法
+
+兩種類型: ①0-1背包問題 ②Fractional背包問題
+     
+     (1)使用貪婪演算法處理0-1/fractional背包問題
+     
+     (2)使用dynamic programming解法
+     
+     (3)修正dynamic programming的解法
+     
+     (4)使用backtracking解法
+     
+     (5)使用branch and bound解法
+
+
+背包問題：knapsack problem
+
+有n樣物品x(1), x(2), ...x(n), 其重量與價值各為w(i)與v(i)(i=1,2,...n), 其中所有的w(i)均為整數. 
+
+如何從這n樣物品當中選取部分出來, 使得選出的物品價值最高, 但總重量不超過W? 
+
+直接想法：把{x1,x2...,xn} 的所有子集合產生出來, 並逐一檢查. 耗時2n.
+
+knapsack problem有兩個不同的版本：
+ 
+ 0-1 knapsack：每樣物品只有數個, 只能拿或不拿, 不能拿一部分 
+ 
+ fractional knapsack：每樣物品可只取一部分
+ 
+零錢換整鈔問題：
+
+要把n個1元硬幣兌換成50元, 10元, 5元, 1元硬幣, 如何兌換可以讓最終的硬幣數最少? 
+
+①Exhausted Test：把各種硬幣的各種組合都試過一次, 逐一檢查其和是否為n, 並記錄符合條件的組合各用了多少個硬幣, 再找出最佳答案.  
+
+②Greedy method：
+
+x0 = n % 50; n = floor(n / 50); 
+
+x1 = n % 10; n = floor(n / 10); 
+
+x2 = n % 5; x3 = floor(n / 5); 
+
+則"x0個50元, x1個10元, x2個5元, x3個1元" 即為答案. 
+  
+同樣是零錢換整鈔問題, 如果可換硬幣的面額改成9元, 8元, 1元, 則greedy algorithm所求出的就不是最佳解了. 
+
+例: n = 25, 用greedy algorithm解得2個(9元), 0個(8元),7個(1元); 但最佳解其實是1個(9元), 2個(8元), 0個(1元). 
+
