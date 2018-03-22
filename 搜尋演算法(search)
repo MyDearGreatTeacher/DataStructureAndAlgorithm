@@ -1,0 +1,27 @@
+
+靜態搜尋演算法(static search)
+
+循序搜尋(sequential search)
+
+二元搜尋(binary search)
+
+費氏搜尋法(Fibonacci Search)
+
+內插搜尋法(Interpolation search)
+
+
+動態搜尋演算法的hashing method(雜湊法)
+
+雜湊法(hashing method):
+
+靜態雜湊(Static Hash)のHashing function雜湊函數
+
+靜態雜湊(Static Hash)のOverflow Handing Methods
+
+靜態雜湊(Static Hash)の理論評估
+
+動態雜湊(Dynamic Hash)
+
+①目錄雜湊(directory_based hashing)
+
+②無目錄雜湊(directoryless hashing) 如線性雜湊法(linear hashing)
