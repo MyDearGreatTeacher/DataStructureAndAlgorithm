@@ -1,0 +1,61 @@
+圖形(Graph)
+
+[56]圖形：Overview
+
+定義、特性、抽象資料型態：degree、path、cycle
+      
+(1)directed graph(2)undirected graph(3)complete graph (4)weighted graph (5)subgaph 
+
+圖形的表示法與實作 
+(1)相鄰矩陣(adjacency matrix)  (2)相鄰串列(adjacency list) (3)相鄰多元串列(adjacency multilist)
+
+[57]圖形的基本運算(1): 圖形走訪(Graph Travel)廣度優先搜尋DFS  v.s.  (2)深度優先搜尋BFS
+
+[58]圖形的基本運算(2): 找出擴張樹(spanning tree) (a)DFS spanning tree  (b)BFS spanning tree
+
+[59]圖形的基本運算(3):連通圖/雙連通圖
+     ①決定一圖形是否為連通(connective)
+     ②找出所有的連通component
+     
+③雙連通圖:找出undirected connected graph 的Biconnected Components
+
+[60]圖形の演算法分析(1):最小成本擴張樹: minimal cost spanning tree
+    Kruskal’s algorithm/Prim's algorithm/Sollin’s algorithm
+
+[61]圖形の演算法分析(2):最短路徑(The shortest problem)問題
+
+①單起使點全終點問題Single source/All destinations:
+          
+a.Dijkstra algorithm for Non-negative Edge[1959,開創性論文]
+
+b.Bellman-Ford algorithm for general case
+   
+②所有頂點間之最短路徑長度 All pairs shortest paths
+
+a.The Floyd-Warshall algorithm
+
+b.Johnson's algorithm for sparse graphs(稀疏圖形)[1977]
+
+③遞移封包(Transitive Closure)
+
+[62]圖形の演算法分析(3):AOV網路/AOE網路與臨界路徑
+
+①AOV網路(Activity Network)and TOPOLOGICAL SORT 
+
+②AOE網路與臨界路徑(CRITICAL PATHS)【專案管理(Project management)常用】
+
+[63]圖形の演算法分析(4):Flow Network
+
+①Flow Network與Max-Flow Problem
+
+②Ford-Fulkerson method for Max-Flow Problem
+
+③Max-Flow Min-Cut theorem
+
+④Edmonds-Karp Algorithms
+
+⑤Maximun-bipartite-matching problem
+
+⑥Push-relabeling algorithm for Max-Flow Problem
+
+⑦Relabel-to-front algorithm for Max-Flow Problem
