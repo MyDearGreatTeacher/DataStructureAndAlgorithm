@@ -1,0 +1,37 @@
+演算法:
+
+常用演算法類型:overview
+
+(1)貪婪演算法
+
+(2)divide and conquer
+     
+(3)dynamic programming
+
+(4)back tracking
+
+(5)branch and bound
+
+分而治之(Divide-and-Conquer)演算法及其範例
+
+貪婪(Greedy)演算法及其範例
+
+Dynamic Programming演算法及其範例
+
+回溯(Backtracking)演算法及其範例
+
+Branch-and-Bound(分支與限制)演算法及其範例
+
+
+背包問題knapsack problem及其解法
+
+(1)使用貪婪演算法處理0-1/fractional背包問題
+
+(2)使用dynamic programming解法
+
+(3)修正dynamic programming的解法
+
+(4)使用backtracking解法
+
+(5)使用branch and bound解法
+
