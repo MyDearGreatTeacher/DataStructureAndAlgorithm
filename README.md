@@ -48,16 +48,17 @@ Richard Neapolitan and Kumarass Naimipour
 
 全華中譯本(2006.5)
 
-5..Introduction to Algorithms, Second Edition 
+5. Introduction to Algorithms:A creative approach建構式演算法
+   , UDI Manber著,碁峰出版社中譯本(2005.10)
+   
+## 6..Introduction to Algorithms, Second Edition 
 
 Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford  Stein  
 
 松崗出版社中譯本:演算法導論
 
-6. Introduction to Algorithms:A creative approach建構式演算法
-   , UDI Manber著,碁峰出版社中譯本(2005.10)
 
-7. The Art of Computer Programming, Volumes 1-3 
+## 7. The Art of Computer Programming, Volumes 1-3 
 
 Volume 1: Fundamental Algorithms (3rd) 
 
