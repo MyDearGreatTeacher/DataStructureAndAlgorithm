@@ -57,8 +57,11 @@ Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford  Stein
 
 松崗出版社中譯本:演算法導論
 
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/
 
-## 7. The Art of Computer Programming, Volumes 1-3 
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/video-lectures/
+
+## 7. The Art of Computer Programming, Volumes 1-3 +4a
 
 Volume 1: Fundamental Algorithms (3rd) 
 
@@ -67,3 +70,9 @@ Volume 2: Seminumerical Algorithms (3rd)
 Volume 3: Sorting and Searching  (2nd)
 
 Donald Knuth, Donald E. Knuth
+
+https://www-cs-faculty.stanford.edu/~knuth/taocp.html
+
+https://www.bnext.com.tw/article/42929/donald-ervin-knuth-the-art-of-computer-programming
+
+https://www.amazon.com/Computer-Programming-Volumes-1-4A-Boxed/dp/0321751043
