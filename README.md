@@ -28,7 +28,8 @@ Ch13.常見之高等演算法
 
 Ch14.計算理論(Computation theory):P, NP-problem and more
 
-【推薦書籍】: 
+# 【推薦書籍】: 
+
 1. Fundamentals of Data Structures in C
 
 Ellis Horowitz, Sartaj Sahni, Sartaj Horowitz松崗出版社中譯本
